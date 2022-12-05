@@ -1,0 +1,11 @@
+@media screen and (max-width: 900px) {
+  .footer h1 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer h1 {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,38 @@
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .links {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    width: 100%;
+  }
+  .about_left_item {
+    width: 100%;
+  }
+  .about_right_item {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about_right_item img {
+    margin: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
+  .about_left_item p {
+    width: 100%;
+    text-align: justify;
+    font-weight: 600;
+  }
+}

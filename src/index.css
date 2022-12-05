@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #fff;
+  font-size: 18px;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-thumb {
+  width: 100%;
+  border-radius: 15px;
+  background: hsl(244deg 94% 69%);
+}
+
+.wrapper {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+#root{
+  overflow-x: hidden;
+}

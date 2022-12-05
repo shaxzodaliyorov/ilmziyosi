@@ -1,0 +1,19 @@
+textarea::placeholder {
+  color: #d99729;
+}
+
+input::placeholder {
+  color: #d99729;
+}
+
+@media screen and (max-width: 900px) {
+  .contact_wrap {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact_wrap {
+    width: 100%;
+  }
+}
